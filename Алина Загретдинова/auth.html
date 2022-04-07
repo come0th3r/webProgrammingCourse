@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<h1>Регистрация на сайте</h1>
+<form>
+    <label for="email">Ваша почта:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="login">Ваше имя на сайте (логин)</label><br>
+    <input type="text" id="login" name="login"><br><br>
+
+<p>Ваш пол:</p>
+
+    <input type="radio" id="men" name="gender" value="men">
+    <label for="men">Мужской</label><br>
+
+    <input type="radio" id="women" name="gender" value="woman">
+    <label for="women">Женский</label><br>
+
+<p>От кого вы узнали о нашем сайте?</p>
+
+    <input type="checkbox" id="friened" name="where" value="friend">
+    <label for="friened"> От друзей</label><br>
+
+    <input type="checkbox" id="google" name="where" value="google">
+    <label for="google"> Нашли в поисковых системах</label><br>
+
+    <input type="checkbox" id="social" name="where" value="social">
+    <label for="social"> Нашли в соцсетях</label>
+
+<br><br>
+<label for="pass1">Пароль:</label><br>
+<input type="password" id="pass1" name="pass1"><br><br>
+<label for="pass2">Повторите пароль:</label><br>
+<input type="password" id="pass2" name="pass2">
+<br>
+    <p>Загрузите ваш аватар (Только изображение)</p>
+    <p><input type="file" name="photo" multiple accept="image/*,image/jpeg"></p>
+    <input type="submit" value="Готово">
+</form>
+</body>
+</html>
