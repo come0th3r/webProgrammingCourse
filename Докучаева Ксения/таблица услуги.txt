@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Конный фотограф Ксения Докучаева</title>
+ </head>
+ <body>
+  <table>
+  <caption>Услуги</caption>
+  <tr>
+  <th>Вид съемки</th>
+  <th>Цена</th>
+   <th>Описание</th>
+   </tr>
+   </table>
+   </body>
+</html>
