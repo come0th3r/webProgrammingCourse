@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+.header {
+  background-color: #10BD6A;
+  padding: 20px;
+  text-align: center;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  background-color: #FFFFFF
+}
+
+.name1 {
+  font-family: 'Raleway', sans-serif;
+  background-color: #FFFFFF;
+  font-size: 40pt;
+}
+.menu {
+  text-align: center;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  transition: .5s linear;
+}
+.fa {
+  font-family: 'Raleway', sans-serif;
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.menu ul {
+  background: #FFD7A7;
+}
+.menu .submenu {
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: #FFAB51;
+}
+.menu ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.menu ul a {
+  color: #9B4222;
+}
+
+.submenu li a {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  color: white;
+}
+
+.map {
+  text-align: center;
+}
+.photo {
+  float: left;
+  margin: 7px 7px 7px 0;
+  width: 50%;
+  height: 50%;
+}
+.phototeacher {
+text-align: center;
+}
+.phototeachertext {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  list-style: none;
+  padding-top: 40px;
+  text-align: center;
+  background-color: white;
+}
