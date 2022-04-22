@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<html>
+<head>
+<title>Кирилл Блинов</title>
+<meta charset="utf-8">
+<meta name="ID" content="дз">
+<style>
+a:link {
+color: red;
+background-color: transparent;
+text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h1>Домашнее задание</h1>
+<p>Это мой первый опыт написания html кода(</p>
+<a href="https://www.adidas.ru/" target="_self">Гиперссылка</a>
+<p>Моя контактная почта:</p>
+<a href="mailto: kirill.blin.off@mail.ru" title="Жмяк">Почта</a>
