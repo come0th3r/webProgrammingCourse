@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Registration form"</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        input {
+            height: 45px;
+            width: 100%;
+            color: #474747;
+            font-size: 14px;
+            line-height: 16px;
+            border: 2px solid #cccccc;
+            border-radius: 5px;
+            padding-left: 25px;
+
+        }
+        main{
+            background: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .register-form-container {
+            position: relative;
+            z-index: 2;
+            max-width: 415px;
+            width: 100%;
+            background: white;
+            box-shadow: 2px 6px 50px rgb(217, 252, 255);
+            border-radius: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 38px;
+            padding-bottom: 38px;
+
+        }
+        .form-title {
+            color: #5d5d5d;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 38px;
+        }
+        .form-field {
+            margin-bottom: 13px;
+        }
+        .button {
+            display:block;
+            height: 35px;
+            width: 355px;
+            background: #6495ed;
+            border-radius: 5px;
+            border-color: #c8cfd9;
+            border-bottom-color: #d9d9d9;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 45px;
+            padding-bottom: 38px;
+        }
+        .button:hover {
+            background-color: #496ea7;
+
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="register-form-container">
+        <h1 class="form-title">
+            Авторизация
+        </h1>
+        <div class="form-fields">
+            <div class="form-field">
+                <input type="text" placeholder="Введите логин (почта)">
+            </div>
+            <div class="form-field">
+                <input type="text" placeholder="Введите пароль">
+            </div>
+        </div>
+        <div class="form-buttons">
+            <button class="button">Войти</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
