@@ -1,55 +1,52 @@
 body {
   font-family: Etna;
-  background: #4682B4;
+  background: #9400D3;
 }
-
-.register {
-  position: relative;
+.register { 
   max-width: 415px;
   width: 100%;
   background: #F8F8FF;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
 }
-
 h1{
   color: black;
   font-size: 30px;
   margin-bottom: 38px;
+  text-align: center;
 }
-
 .field {
   margin-bottom: 13px;
 }
-
 input {
   height: 50px;
   width: 93.5%;
   color: #474747;
   font-size: 16px;
-  border: 2px solid #708090;
+  border: 2px solid  #800080;
   padding-left: 25px;
+  border-radius: 10px;
 }
-
 button{
   display:block;
   height: 40px;
   width: 385px;
-  background: #4682B4;  
+  background: #8A2BE2;  
   border-color: #FFFAFA;
   color: #FFFAFA;
   font-size: 18px;
   text-align: center;
-  line-height: 45px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 38px;
   max-width: 415px;
   width: 100%;
 }
-
-button:hover {
-  background-color: #1E90FF;
+h2{
+  color: black;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
 }

@@ -1,0 +1,58 @@
+body{
+	background-color: #F5F5F5;
+
+}
+.menu{
+	text-align: center;
+}
+.menu-button{
+	background: white;
+	border: 1px #D2691E solid;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 30px;
+	color: #D2691E;
+}
+.menu-button:hover{
+	border: 1px #FF8C00 solid;
+	color: #FF8C00;
+}
+.main{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+ 	margin-top: 20px;
+ 	border: 1px #D2691E solid;
+ 	width: 612px;
+ 	background-color: white;
+}
+.image{
+	width: 609px;
+}
+.text{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+table{
+	width: 100%;
+	font-size: 25px;
+}
+td,th{
+	border: 1px black solid;
+}
+.table{
+	width: 612px;
+	border: 1px #D2691E solid;
+	display: block;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a{
+	color: #D2691E;
+}
+a:hover{
+	color: #FF8C00;
+}
