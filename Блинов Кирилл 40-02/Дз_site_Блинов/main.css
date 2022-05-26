@@ -1,0 +1,37 @@
+html{
+    background-color: #EDEFEE;
+}
+
+a {
+    color: white !important;
+}
+
+.ah{
+    font-size: 23px;
+}
+
+.main_text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.card_img {
+    margin-left: 10%;
+    width: 200px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+.card_text{
+    text-align: center;
+}
+
+.fm {
+    background-color: #ffb6b5b0;
+    border-radius: 20px;
+}
