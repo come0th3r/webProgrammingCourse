@@ -1,0 +1,71 @@
+
+
+h1 {
+    float: left;
+    padding-right: 5%;
+}
+
+.header {
+    margin-left: 35%;
+    width: 30%;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+.school{
+    border-radius: 25px;
+}
+
+.about{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.galya{
+    width: 40%;
+    border-radius: 25px;
+}
+
+.name{
+    font-size: 30px;
+    padding-left: 4%;
+}
+
+
+.ace{
+    width: 40%;
+    text-align: center;
+}
+
+.dist{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.dist_t{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dist_a{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
