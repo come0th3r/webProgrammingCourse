@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body{
+    width: 67%;
+    height: auto;
+    margin: auto;
+    background: #fafafa;
+}
+
+.menu{
+    background: #eee2ee;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+    vertical-align: middle;
+}
+
+.menuitemBox{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: auto;
+    width: 67%;
+    vertical-align: middle;
+}
+
+.logo{
+    margin: auto 10px auto 20px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.menuItem{
+    line-height: 30px;
+    font-size: 2.5vh;       
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #43586c;
+    text-align: center; 
+    transition: .5s;
+    margin-left: 20px;
+}
+
+.menuItem:hover{
+    color: #727272;
+}
+
+.menuIconBox{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menuIcon{
+    margin: auto 7px;
+    width: auto;
+    height: auto;
+}
+
+.menuIcon img{
+    width: 4vh;
+    height: 4vh;
+}
+
+.linkBox{
+    display: flex;
+    justify-content: flex-start;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    margin: auto 10px;
+    flex-grow: 1;
+
+}
+
+.contentBox{
+    margin-top: 120px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+}
+
+.contentBox h1{
+    font-size: 3vh;
+    color: #43586c;
+    position: relative;
+    margin: 15px 0 0 25px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentBoxPrice{
+    text-align: center;
+    margin-top: 86px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+}
+
+.contentBoxPrice h1{
+    font-size: 32px;
+    position: relative;
+    margin: 15px 0 0 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentBoxPhoto{
+    margin-top: 86px;
+    position: relative;
+    background: #fafafa;
+    z-index: 100;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.contentBoxPhoto h1{
+    width: 100%;
+    font-size: 32px;
+    position: relative;
+    margin: 15px 0 0 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imageBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 20px 0;
+}
+
+.imageBox img{
+    width: 100%;;
+    height: auto;
+}
+
+.mapImg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.mapImg img{
+    width: 50%;;
+    height: auto;
+    margin: 1%;
+    margin-right: 0;
+    border-radius: 3%;
+}
+
+.saleButton{
+    position: absolute;
+    bottom: 30%;
+    left: 26%;
+    border-radius: 30px;
+    width: 16%;
+    height: 14%;
+    border-color: #CF7CAE;
+    border-width: 0.5vh;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: #CF7CAE;
+}
+
+.textBox{
+    position: relative;
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    color: #43586c;
+}
+
+.textBox h1{
+    margin-left: 0;
+    font-size: 4vh;
+}
+
+.textBox p{
+    text-align: justify;
+}
+
+.textBoxP{
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 220px;
+}
+
+.textBoxP p{
+    text-align: justify;
+}
+
+.map img{
+    border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    margin: 0 60px;
+}
+
+
+.plzKupi{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.serviceImage{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    color: #43586c;
+
+}
+
+.serviceImage img{
+    width: 30vh;
+    height: 30vh;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.serviceImage p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+
+.pol1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.pol1 div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #eee2ee;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.pol1 p{
+    width: 30vh;
+    margin-left: 10%;
+}
+
+.pol2 p{
+    width: 30vh;
+}
+
+.pol2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.pol2 div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #eee2ee;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.form{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.buyButton{
+    background: #191919;
+    color: #fafafa;
+    border-radius: 7px;
+    border: none;
+    width: 310px;
+    height: 80px;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    bottom: 0;
+    margin: 15px 0 0 0;
+    width: 100%;
+    height: auto;
+    background: #eee2ee;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5vh;
+    color: #43586c;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footer br{
+    margin: 0;
+}
+
+.footer div{
+    margin: 5px 10px;
+}
+
+.pictogrammBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.pictogramm{
+    text-align: center;
+    color: #191919;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 120px;
+    margin: 10px 30px;
+}
+
+.imgProgrBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.imgProgr{
+    text-align: center;
+    color: #191919;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 120px;
+    margin: 10px 30px;
+    width: 390px;
+    margin: 10px;
+}
+
+.imgProgr img{
+    width: 390px;
+    height: 490px;
+}
+
+.imgProgr p{
+    max-width: 400px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.inputTel{
+    width: 250px;
+    height: 32px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.actTel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.buyButtonTel{
+    background: #191919;
+    color: #fafafa;
+    border-radius: 7px;
+    border: none;
+    width: 310px;
+    height: 40px;
+    margin: 5px 50%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #eee2ee;
+	font-size: 2vh;
+    color: #43586c;
+	border-top: 1px solid #ddd;
+}
+.table tr th:first-child, .table tr td:first-child {
+	border-left: 1px solid #ddd;
+}
+.table tr th:last-child, .table tr td:last-child {
+	border-right: 1px solid #ddd;
+}
+.table thead tr th:first-child {
+	border-radius: 20px 0 0 0;
+}
+.table thead tr th:last-child {
+	border-radius: 0 20px 0 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table tbody tr:nth-child(even) {
+	background: #F8F8F8;
+}
+.table tbody tr:last-child td{
+	border-bottom: 1px solid #ddd;
+}
+.table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 20px;
+}
+.table tbody tr:last-child td:last-child {
+	border-radius: 0 0 20px 0;
+}
+
+
+
+.aboutUSText{
+    margin: 10px 35px;
+    color: #43586c;
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.formContact{
+    margin: 20px 0 0 35px;
+    font-size: 2vh;
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+}
+
+.formContact input{
+    margin: 5px;
+}
+
+.formContact textarea{
+    margin: 5px;
+}
+
+.formContact button{
+    margin: 5px;
+    height: 3vh;
+    background: #CF7CAE;
+    border-radius: 5px;
+}
+
+.imgCon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgCon img{
+    width: 300px;
+    height: 200px;
+    margin: 10px 5px;
+}
