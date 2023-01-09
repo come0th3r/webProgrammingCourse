@@ -1,0 +1,25 @@
+.hero__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__link {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #000;
+  }
+
+  .hero__link:hover {
+    color: #4facfe;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1,
+h2,
+h3 {
+  margin: 5;
+}
